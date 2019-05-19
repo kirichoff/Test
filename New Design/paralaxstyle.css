@@ -1,0 +1,77 @@
+#reg2{
+    z-index: 12;
+}
+
+#regbloc
+{
+    padding-top: 450px;
+    padding-left: 15%;
+}
+
+#signup {
+      
+    margin-left: 100px;
+}
+
+#wel{
+position: absolute;
+z-index: 4;
+color: white;
+font-size: 200PX;
+    max-width: 200px;
+    max-height: 200px;
+align-content: center;
+margin-left: 22%;
+margin-top: 15%;
+}
+
+#Header1
+{
+margin-left: 33%;
+margin-top: 5%;
+    font-size: 80PX;
+font-weight: 100px;
+    max-width: 700px;
+    max-height: 100px;
+color: #08121E;
+}
+#headerbar{
+    border: rgb(10, 63, 199) solid 5px;
+    border-radius: 20px;
+    max-width: 200px;
+    height: 1px;
+    z-index: 14;
+    margin-left: 45%;
+    margin-bottom: 5%;
+    background-color: rgb(10, 63, 199);
+}
+#bar{
+position: absolute;
+z-index: 3;
+color: white;
+font-size: 25PX;
+margin-left:87%;
+margin-top: 10px; 
+}
+#reg{
+  margin-left: 10px; 
+}
+#log{
+  margin-right: 10px; 
+}
+
+#end{
+    position: absolute;
+    margin: 500%;
+}
+footer {
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #08121E;
+
+}
+svg{
+    margin-left: 200px;
+}
