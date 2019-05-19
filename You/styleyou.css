@@ -1,0 +1,27 @@
+
+bod{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    background-color: rgba(7, 18, 30,0.7);
+    padding: 5px;
+    margin-left: -1%;
+}
+#menu span:nth-child(1)
+{
+}
+#menu span
+{
+margin-left: 10%;
+}
+
+#menu span:hover
+{
+color: #2760F1;    
+}
