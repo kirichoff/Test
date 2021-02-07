@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8374449-561d-44cc-bed6-1c5641e753d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/phone-call.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/shema.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +69,16 @@
       <workItem from="1612120747528" duration="9949000" />
       <workItem from="1612281704705" duration="19545000" />
       <workItem from="1612463506223" duration="10766000" />
-      <workItem from="1612638240400" duration="23239000" />
+      <workItem from="1612638240400" duration="24064000" />
     </task>
+    <task id="LOCAL-00001" summary="finaly">
+      <created>1612702881672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612702881672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +98,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="finaly" />
+    <option name="LAST_COMMIT_MESSAGE" value="finaly" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1612120910333">
