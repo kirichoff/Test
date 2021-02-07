@@ -26,20 +26,21 @@
 
 <body>
 
-<div class="bar main">
+<div id="navbar" class="bar main">
   <div class="logo-container">
-    <div class="logo"></div>
+    <a href="#main-logo">
+      <div class="logo"></div>
+    </a>
   </div>
   <div class="bar-items">
-    <div class="bar-text text-primary active">О нас</div>
-    <div class="bar-text text-primary ">Услуги</div>
-    <div class="bar-text text-primary">Портфолио</div>
-    <div class="bar-text text-primary">Ремонт</div>
-    <div class="bar-text text-primary">Контакты</div>
+    <a href="#about-us" class="bar-text text-primary">О нас</a>
+    <a href="#service" class="bar-text text-primary ">Услуги</a>
+    <a href="#repair" class="bar-text text-primary">Ремонт</a>
+    <a href="#contacts" class="bar-text text-primary">Контакты</a>
   </div>
 </div>
 
-<div class="main-title">
+<div id="main-logo" class="main-title">
   <div class="big-logo-content">
     <div class="big-logo"></div>
   </div>
@@ -51,7 +52,6 @@
 </div>
 
 <div class="parallax"></div>
-<img src="img/previewWide.png" alt="hi">
 <div class="body-content">
   <section id="about-us">
     <div class="section-header">
@@ -76,7 +76,6 @@
     </div>
   </section>
   <div class="stanok">
-    <img src="img/freza.png" alt="freza">
     <div class="text-content">
       <div class="text text-primary">
         мы используем современное высокоточное оборудование, отвечающее всем современным
@@ -115,23 +114,23 @@
       </div>
       <div id="like" class="s-item">
         <img src="img/like.svg" alt="con">
-        <div class="header">Консультация</div>
-        <div class="description">Бесплатная консультация</div>
+        <div class="header">Качество</div>
+        <div class="description">Гарантия высокого качества </div>
       </div>
       <div class="s-item">
         <img src="img/sketch.svg" alt="con">
-        <div class="header">Консультация</div>
-        <div class="description">Бесплатная консультация</div>
+        <div class="header">Проектирование</div>
+        <div class="description">Проектирование фрез с нашим конструктором</div>
       </div>
       <div id="milling-machine" class="s-item">
         <img src="img/milling-machine.svg" alt="con">
-        <div class="header">Консультация</div>
-        <div class="description">Бесплатная консультация</div>
+        <div class="header">Производство</div>
+        <div class="description">Собственное производство</div>
       </div>
-      <div id="tools" class="s-item">
+      <div id="tools" class="s-item last">
         <img src="img/tools.svg" alt="con">
-        <div class="header">Консультация</div>
-        <div class="description">Бесплатная консультация</div>
+        <div class="header">Заточка</div>
+        <div class="description">Заточка фрез, пил, ножей, сверл</div>
       </div>
     </div>
 
@@ -143,32 +142,238 @@
     </div>
 
     <div>
-      <table id="repair-table">
+      <table id="repair-table-frez">
         <tr>
           <th>Опперация</th>
           <th>Наименование инструмента Фрезы вт.ч. ширина</th>
           <th>стоимость,руб</th>
         </tr>
         <tr>
-          <td>Jill</td>
-          <td>Smith</td>
-          <td>50</td>
+          <td>Заточка</td>
+          <td>От 9 мм, 1 зуб</td>
+          <td>1,3</td>
         </tr>
         <tr>
-          <td>Eve</td>
-          <td>Jackson</td>
-          <td>94</td>
+          <td></td>
+          <td>от 10 до 19 мм, 1 зуб</td>
+          <td>1,4</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>от 20 до 29 мм, 1 зуб</td>
+          <td>1,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>от 30 до 39 мм, 1 зуб</td>
+          <td>1,6</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>от 40 до 49 мм, 1 зуб</td>
+          <td>1,7</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>от 50 до 59 мм, 1 зуб</td>
+          <td>1,8</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>от 60 до 69 мм, 1 зуб</td>
+          <td>1,9</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>от 70 до 79 мм, 1 зуб</td>
+          <td>2.0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Фреза для мини шипа до 30 мм 2=4</td>
+          <td>8,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Фреза для мини шипа до 30 мм 2=6</td>
+          <td>12,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Фреза для мини шипи до 40 мм, 2=4</td>
+          <td>9,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Фреза для мини шипа до 50 мм, 2=4</td>
+          <td>10,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Фреза для мини шипа составная, 1 ед.</td>
+          <td>4,3</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Фреза конценвая до 10 мм , 1 зуб</td>
+          <td>1,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Фреза В 180, 2 = 12(кукуруза)</td>
+          <td>33,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Фреза В 160, 2 = 12</td>
+          <td>31,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Фреза В 120, 2 = 12</td>
+          <td>28,0</td>
+        </tr>
+        <tr>
+          <td>ремонт</td>
+          <td>Фреза пазовая до 19 мм, 1 зуб</td>
+          <td>22,0</td>
+        </tr>
+        </table>
+
+      <div id="rep-frez" class="show-more">Ещё</div>
+
+      <table id="repair-table-pil">
+        <tr>
+          <th>Опперация</th>
+          <th>Наименование инструмента Фрезы вт.ч. ширина</th>
+          <th>стоимость,руб</th>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2= 120</td>
+          <td>11,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2= 108</td>
+          <td>10,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 = 96</td>
+          <td>9,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 = 80</td>
+          <td>7,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 = 72</td>
+          <td>7,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 = 60</td>
+          <td>6,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 = 56</td>
+          <td>6,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 = 48</td>
+          <td>5,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 = 40</td>
+          <td>5,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 = 36</td>
+          <td>4,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 = 32</td>
+          <td>4,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2 = 24</td>
+          <td>3,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>2= 12</td>
+          <td>2.0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Сверло й < 8 мм</td>
+          <td>2,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Сверло 0 8-11 мм</td>
+          <td>3,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Сверло 0 12-35 мм</td>
+          <td>4,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ножи строгальные прямые до 50 мм</td>
+          <td>2,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ножи строгальные прямые до 100 мм</td>
+          <td>4,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ножи строгальные прямые до 200 мм</td>
+          <td>6,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ножи строгальные прямые до 300 мм</td>
+          <td>7,5</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ножи строгальные прямые до 400 мм</td>
+          <td>9,0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Ножи для гильотины 1 шт.</td>
+          <td>15,0</td>
+        </tr>
+        <tr>
+          <td>исравление</td>
+          <td>Ст-ть договорная от сложности профиля</td>
+          <td></td>
         </tr>
       </table>
-    </div>
 
-    <div class="description">
-      <span class="yellow">Примечание:</span> Для фрез 2>6, заточка 7-го и более зубьев равна от 1 до 0,5 стоимости. За основу расчета цен приняты
-      нормативы времени на проведение одной операции и расчет затрат на содержание, эксплуатацию и техническое
-      обслуживание ОС. вспомогательного оборудования, инструмента.
-      Расчет произведен без учета НДС.
-    </div>
+      <div id="rep-pil" class="show-more">Ещё</div>
 
+      <div class="description">
+        <span class="yellow">Примечание:</span> Для фрез 2>6, заточка 7-го и более зубьев равна от 1 до 0,5 стоимости. За основу расчета цен приняты
+        нормативы времени на проведение одной операции и расчет затрат на содержание, эксплуатацию и техническое
+        обслуживание ОС. вспомогательного оборудования, инструмента.
+        Расчет произведен без учета НДС.
+      </div>
+    </div>
   </section>
 
   <section id="contacts">
@@ -176,8 +381,46 @@
       <span class="text-primary active">Контакты</span>
     </div>
     <div class="wrapper">
+      <div class="contacts">
+
+        <div class="c-item" id="call">
+          <div class="icon"></div>
+          <div class="text">
+             <a class="text-primary" href="tel:+375293270416">+375 29 327-04-16 (a1)</a>
+             <a class="text-primary" href="tel:+375291464281">+375 29 146-42.81 (a1)</a>
+             <a class="text-primary" href="tel:+375296893692">+375 29 689-36-92 (a1)</a>
+             <a class="text-primary" href="tel:+375293669242">+375 29 366-92-42 (a1)</a>
+             <a class="text-primary" href="tel:375173076933">+375 17 307-69-33 (тел./факс)</a>
+          </div>
+        </div>
+        <div class="c-item" id="mail">
+          <div class="icon"></div>
+          <div class="text">
+            <a class="text-primary" href="mailto:3076933@mail.ru">3076933@mail.ru</a>
+          </div>
+        </div>
+        <div class="c-item" id="mark">
+          <div class="icon"></div>
+          <div class="text">
+            <a class="text-primary mark-action">Минский р-н, д. Гатовино</a>
+            <a class="text-primary mark-action">Склад (пунтк приема) - г. Минск ул. Тимирязева, 44</a>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div>
+        <div id="btn-schema-container">
+          <div id="hide-schema" class="active-btn">карта</div>
+          <div id="show-schema">схема</div>
+        </div>
+        <div id="schema"></div>
+        <div id="map"></div>
+      </div>
 
     </div>
+
   </section>
 
   <footer>
@@ -185,7 +428,10 @@
     <h2 class="text text-primary">©2021</h2>
   </footer>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=66f705e6-adf0-4fd7-86b8-f3d9d7ad729b" type="text/javascript"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <div class="elfsight-app-bdfa424d-b9a2-479b-a804-2c6f6a10db8a"></div>

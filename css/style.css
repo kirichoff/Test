@@ -45,8 +45,14 @@ body, html {
   height: 75%;
   display: inline-block;
   text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
 }
 
+.bar-text:hover{
+  border-bottom: solid 5px #FDB900;
+  transition: border-bottom ease-in 0.1s;
+}
 
 .active {
   border-bottom: solid 5px #FDB900;
@@ -64,6 +70,8 @@ body, html {
   display: flex;
   justify-content: flex-start;
   z-index: 200;
+  position: fixed;
+  transition:top ease-in 0.1s;
 }
 
 .bar.main {
@@ -81,12 +89,14 @@ body, html {
 
 .bar-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  width: 100%;
 }
 
 .logo-container {
   padding-top: 5px;
   margin-right: 7%;
+  position: absolute;
 }
 
 .logo {
@@ -104,7 +114,7 @@ body, html {
   position: absolute;
   height: 28vh;
   width: 66em;
-  z-index: 200;
+  z-index: 1;
   margin: 15% auto auto 13%;
   padding-bottom: 10px;
 }
@@ -137,7 +147,8 @@ body, html {
 }
 
 section {
-  padding: 10px;
+  padding: 10px 80px;
+  outline: none;
 }
 
 section .wrapper {
@@ -189,29 +200,34 @@ section p {
   width: 100%;
 }
 
+.stanok{
+  height: 45%;
+  width: 100%;
+  background: url("../img/freza.png") no-repeat;
+  margin-bottom: 20px;
+}
+
 .stanok .text-content {
   position: absolute;
-  margin-left: 109px;
-  width: 39vw;
-  height: 50%;
   transform: skew(20deg);
   background: #FDB900;
-  margin-top: -464px;
+  padding: 8% 3%;
+  width: 32em;
+  margin-left: 8%;
+  margin-top: -15px;
 }
 
 #stanok {
   height: 55%;
   width: 27vw;
   position: absolute;
-  margin-left: -540px;
-  margin-top: -44px;
+  right: 10px;
+  margin-top: -40px;
 }
 
 .stanok .text {
   transform: skew(-20deg);
-  margin-top: 143px;
-  width: 80%;
-  margin-left: 100px;
+  width: 100%;
 }
 
 .service-bar {
@@ -221,19 +237,26 @@ section p {
   width: 95%;
   margin: auto;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 45px;
 }
 
 .s-item {
-  padding-right: 50px;
   border-right: solid 1px #70707094;
-  width: 14%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .s-item img {
   margin-bottom: 20px;
-  width: 100%;
+  width: 80%;
   height: 69%;
+}
+
+.s-item.last{
+  padding-right: 10px;
+  border: none;
 }
 
 .service-bar .header {
@@ -248,23 +271,23 @@ section p {
   font-family: Roboto;
   font-weight: 400;
   text-align: center;
-  font-size: 26px;
+  font-size: 20px;
   color: #505050;
 }
 
 #milling-machine img {
-  width: 100%;
+  width: 90%;
   height: 69%;
 }
 
 #tools img {
-  width: 100%;
+  width: 70%;
   height: 69%;
   color: #152035;
 }
 
 
-#repair-table {
+table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   box-shadow: 0px 0px 23px 5px #0000001f;
@@ -273,18 +296,18 @@ section p {
   margin-top: 50px;
 }
 
-#repair-table td, #repair-table th {
+table td, table th {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
   font-size: 25px;
 }
 
-#repair-table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:nth-child(even){background-color: #f2f2f2;}
 
-#repair-table tr:hover {background-color: #ddd;}
+table tr:hover {background-color: #ddd;}
 
-#repair-table th {
+table th {
   font-family: Roboto;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -293,9 +316,149 @@ section p {
   font-size: 25px;
 }
 
-#repair .description{
+table .description{
   font-family: "Roboto Light";
   font-size: 20px;
   padding: 40px;
   width: 95%;
 }
+
+
+#contacts .contacts{
+  width: 600px;
+  height: 500px;
+}
+
+#map {
+  width: 600px;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+#contacts .wrapper .contacts{
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.c-item{
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+.c-item .text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  padding-left: 50px;
+
+}
+.c-item .text a{
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.c-item .text a:hover{
+  color: #FDB900;
+}
+
+.icon{
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat !important;
+}
+
+#call .icon{
+  background: url("../img/phone-call.svg");
+}
+
+#mail .icon{
+  background: url("../img/mail.svg");
+}
+
+#mark .icon{
+  background: url("../img/mark.svg");
+}
+
+footer{
+  background-color: #152035;
+}
+
+.text-25{
+  font-size: 28px;
+}
+
+footer h1.text-primary{
+  color: white;
+  text-align: center;
+  font-size: 30px ;
+  margin: 0;
+}
+
+footer h2.text-primary{
+  color: white;
+  text-align: center;
+  font-size: 25px !important;
+}
+
+#repair .description{
+  font-family: Roboto;
+  font-size: 1em;
+  padding: 30px;
+}
+
+.show-more{
+  padding: 5px;
+  width: 3.5em;
+  margin: auto;
+  text-align: center;
+  font-family: roboto;
+  font-size: 15px;
+  margin-top: 15px;
+  border-radius: 100px;
+  box-shadow: 0px 2px 5px 0px #6d6d6d;
+  cursor: pointer;
+}
+
+.show-more:hover{
+  color: #FDB900;
+}
+
+#schema{
+  display: none;
+  z-index: 100;
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  background: url('../img/shema.svg') no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+
+#btn-schema-container{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  z-index: 500;
+}
+
+#btn-schema-container div{
+  display: inline-block;
+  font-family: Roboto;
+  border-radius: 0.3em;
+  background-color: white;
+  padding: 2px 10px;
+  box-shadow: 0px 2px 4px 0px #6d6d6d6e;
+  cursor: pointer;
+}
+
+#btn-schema-container div.active-btn{
+  background-color: #FDB900;
+  color: white;
+}
+
